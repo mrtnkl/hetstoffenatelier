@@ -23,27 +23,65 @@ body {
 }
 
 article {
-  position: relative
+  position: relative;
+}
+.center {
+  text-align: center;
+}
+.img {
+  margin: 15px 0;
 }
 
 .region:before {
   content: 'regio '
 }
 
+div.p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.quote {
+  font-style: italic;
+  padding: 10px;
+}
+h3 {
+  display: inline;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0; padding: 0;
+  font-weight: normal;
+}
 section {
   position: relative
 }
 
 section#header {
   min-height: 80vh;
-  background: #efeff1 url(../img_hires/background1.jpg) no-repeat center bottom;
+  background: #efeff1 url(../img/background1.jpg) no-repeat center bottom;
   background-size: cover
 }
-
+section#header.bg4 {
+  background-image: url(../img/background4.jpg);
+}
+section#header.bg5 {
+  background-image: url(../img/background5.jpg);
+}
+.een {
+  display: block;
+  position: relative;
+  text-align: center;
+  font-size: 2em;
+  border: solid red 10px;
+}
+.een:after {
+  content: 'een';
+}
 section#header h1#logo {
   position: absolute;
   left: 50%;
-  top: 40px;
+  top: 50px;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -56,6 +94,46 @@ section#header h1#logo {
   height: 50vh;
   background: url(../img/logo_1024.png) no-repeat center center;
   background-size: contain
+}
+section#header h2#subtitle {
+  position: absolute;
+  left: 50%;
+  bottom: 80px;
+  display: block;
+  transform: translatex(-50%) rotate(-3deg);
+  padding: 0;
+  border-radius: 4px;
+  font-size: 40px;
+}
+section#header h2#subtitle span {
+  position: relative;
+  display: block;
+  left: 0; top: 0; right: 0; bottom: 0;  
+  padding: 10px 30px;
+  color: #fff;
+  background: #ff4183;
+  box-shadow: 0 0 4px rgba(0,0,0,.8);
+  z-index: 2;
+  white-space: nowrap;
+  text-align: center;
+}
+section#header h2#subtitle:after {
+  width: 50px; height: 100%;
+  box-shadow: 0 0 4px rgba(0,0,0,.5);
+  background: #ff4183;
+  left: -35px; top: 5px;
+  z-index: 1;
+  transform: rotate(-6deg);
+}
+section#header h2#subtitle:before {
+  position: absolute;
+  content: '';
+  width: 50px; height: 100%;
+  box-shadow: 0 0 4px rgba(0,0,0,.5);
+  background: #ff4183;
+  right: -35px; top: 5px;
+  z-index: 1;
+  transform: rotate(6deg);
 }
 
 section#header .separator {
@@ -87,20 +165,20 @@ section.white a {
 }
 
 section.white a:hover {
-  color: #ef8f86
+  color: #ef8f86;
 }
 
 section.section-a {
   color: #fff;
-  background: #79c7d4
+  background: #79c7d4;
 }
 
 section.section-a h2 {
-  color: #13353b
+  color: #13353b;
 }
 
 section.section-a h2:after {
-  background: #f4f7b4
+  background: #f4f7b4;
 }
 
 section.section-a p {
@@ -115,7 +193,7 @@ section.section-a .separator.bottom svg use {
   stroke: #2c7b88
 }
 
-section.section-a:after {
+/*section.section-a:after {
   content: '';
   position: absolute;
   left: 0;
@@ -126,7 +204,7 @@ section.section-a:after {
   background-size: cover;
   opacity: .2
 }
-
+*/
 section.section-a .inner {
   position: relative;
   z-index: 1
@@ -134,7 +212,7 @@ section.section-a .inner {
 
 section.section-b {
   color: #fff;
-  background: #ef8f86
+  background: #ef8f86;
 }
 
 section.section-b h2 {
@@ -163,7 +241,7 @@ section.section-b .separator.bottom svg use {
   stroke: #e0e82a
 }
 
-section.section-b:after {
+/*section.section-b:after {
   content: '';
   position: absolute;
   left: 0;
@@ -174,7 +252,7 @@ section.section-b:after {
   background-size: cover;
   opacity: .2
 }
-
+*/
 section.section-b .inner {
   position: relative;
   z-index: 1
@@ -187,7 +265,7 @@ section a {
 section#footer {
   text-align: right;
   min-height: 80vh;
-  background: #efeff1 url(../img_hires/background2.jpg) no-repeat right bottom;
+  background: #efeff1 url(../img/background2.jpg) no-repeat right bottom;
   background-size: cover
 }
 
@@ -267,24 +345,43 @@ h2:after {
   -o-transform: rotate(-2deg)
 }
 
+@media only screen and (max-width:450px) {
+  html section#header h2#subtitle span {
+    font-size: 25px;
+    padding: 5px 5px;
+  }
+}
 @media only screen and (max-width:400px) {
   html .services {
     font-size: 1.5em
   }
+  html section#header h2#subtitle span {
+    font-size: 25px;
+    padding: 5px;
+  }
 }
 
 .services {
-  font-family: 'frente';
   text-align: center;
-  font-size: 2em;
-  line-height: 1.5em;
   margin: 20px 0 40px 0;
   padding-bottom: 8px
 }
 
 .services .service {
+  font-family: 'frente';
+  font-size: 2em;
+  line-height: 1.5em;
   position: relative;
   color: #333
+}
+.services .txt {
+  font-family: 'frente';
+  font-size: 2em;
+  line-height: 1.5em;  
+}
+.service a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .services .service:after {
@@ -299,6 +396,9 @@ h2:after {
   -moz-transform: rotate(-2deg);
   -ms-transform: rotate(-2deg);
   -o-transform: rotate(-2deg)
+}
+.services .service.s3:after {
+  background: #ff4183;
 }
 
 .separator {
@@ -475,4 +575,86 @@ h2.delighter.started:after {
     -ms-transform: scale(1);
     -o-transform: scale(1)
   }
+}
+
+#menu {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 9;
+  background: #333; 
+  color: rgba(255,255, 255,.9);
+  padding: 4px 8px 6px 8px;
+  font-size: 15px;
+  opacity: .5;
+  transform: translatey(-100%);
+  transition: all .3s ease-out;
+}
+html.show-menu #menu {
+  transform: translatey(0);
+  opacity: 1;
+}
+#menu #company {
+  margin: 0 20px 0 30px;
+}
+#menu-logo {
+  position: absolute;
+  display: block;
+  width: 24px; height: 24px;
+  background: url(../img/logo_circle.png) no-repeat center center;
+  background-size: contain;
+}
+#menu ol {
+  margin: 0; padding: 0;
+  display: inline-block;
+}
+#menu li {
+  display: inline-block;
+  padding: 0; margin: 0;
+}
+#menu li a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: solid #79c7d4 2px;
+}
+#menu li a:hover {
+  color: #fff;
+  border-bottom: solid #ef8f86 2px;
+}
+#menu li + li {
+  margin-left: 10px;
+}
+#menu-opleiding:before {
+  content: 'Danckaerts ';
+}
+@media only screen and (max-width:550px) {
+  html #company {
+    display: none;
+  }
+  html #menu ol {
+    margin-left: 32px;
+  }
+}
+@media only screen and (max-width:400px) {
+  html #menu-opleiding:before {
+    content: '';
+  }
+  html #menu-opleiding .first {
+    text-transform: uppercase;
+  }
+  html #menu li + li {
+    margin-left: 5px;
+  }
+}
+[data-anchor] {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+#home {
+  position: absolute;
+  left: 6px; top: 2px;
+  font-size: 13px;
+  z-index: 2;
+  color: rgba(0,0,0,.96);
+  text-decoration: none;
+  border-bottom: solid #ff4183 2px; 
 }
