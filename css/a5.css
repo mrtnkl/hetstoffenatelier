@@ -62,14 +62,11 @@ section#header {
   background: #efeff1 url(../img/background1.jpg) no-repeat center bottom;
   background-size: cover
 }
-section#header.bg2 {
-  background-image: url(../img/background2.jpg);
+section#header.bg4 {
+  background-image: url(../img/background4.jpg);
 }
 section#header.bg5 {
   background-image: url(../img/background5.jpg);
-}
-section#header.bg6 {
-  background-image: url(../img_hires/background6.jpg);
 }
 .een {
   display: block;
@@ -113,8 +110,8 @@ section#header h2#subtitle span {
   display: block;
   left: 0; top: 0; right: 0; bottom: 0;  
   padding: 10px 30px;
-  color: #333;
-  background: #fff;
+  color: #fff;
+  background: #f76e9e;
   box-shadow: 0 0 4px rgba(0,0,0,.8);
   z-index: 2;
   white-space: nowrap;
@@ -123,7 +120,7 @@ section#header h2#subtitle span {
 section#header h2#subtitle:after {
   width: 50px; height: 100%;
   box-shadow: 0 0 4px rgba(0,0,0,.5);
-  background: #fff;
+  background: #f76e9e;
   left: -35px; top: 5px;
   z-index: 1;
   transform: rotate(-6deg);
@@ -133,7 +130,7 @@ section#header h2#subtitle:before {
   content: '';
   width: 50px; height: 100%;
   box-shadow: 0 0 4px rgba(0,0,0,.5);
-  background: #fff;
+  background: #f76e9e;
   right: -35px; top: 5px;
   z-index: 1;
   transform: rotate(6deg);
@@ -149,7 +146,7 @@ section#header .separator {
 
 section .content {
   max-width: 700px;
-  padding: 40px;
+  /*padding: 40px;*/
   margin: 0 auto
 }
 
@@ -267,9 +264,12 @@ section a {
 
 section#footer {
   text-align: right;
-  min-height: 80vh;
+  min-height: 50vh;
   background: #efeff1 url(../img/background2.jpg) no-repeat right bottom;
   background-size: cover
+}
+section#footer .content {
+  padding-top: 30px;
 }
 
 #colofon {
@@ -366,7 +366,7 @@ h2:after {
 
 .services {
   text-align: center;
-  margin: 20px 0 40px 0;
+  margin: 20px 0 20px 0;
   padding-bottom: 8px
 }
 
@@ -391,7 +391,7 @@ h2:after {
   content: '';
   position: absolute;
   width: 100%;
-  height: 10px;
+  height: 5px;
   left: 0;
   bottom: -8px;
   background: #79c7d4;
@@ -586,12 +586,8 @@ h2.delighter.started:after {
   z-index: 9;
   background: #555;
   color: rgba(255,255, 255,.9);
-  padding: 5px 8px 7px 8px;
-  font-size: 25px; letter-spacing: 1.5px;
-  font-weight: bold;
-  /*font-family: 'Open Sans'; font-weight: 600;*/
-  /*font-family: 'Bahnschrift', sans-serif;*/
-  font-family: 'frente';
+  padding: 4px 8px 6px 8px;
+  font-size: 20px;
   /*transition: all .6s ease-out;
   opacity: .5;
   transform: translatey(-100%);*/
