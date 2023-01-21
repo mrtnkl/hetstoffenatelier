@@ -271,6 +271,9 @@ section#footer {
   background: #efeff1 url(../img/background2.jpg) no-repeat right bottom;
   background-size: cover
 }
+section#footer.bg2 {
+  background-image: url(../img/background1.jpg);
+}
 
 #colofon {
   background: #000;
