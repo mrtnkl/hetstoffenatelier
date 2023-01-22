@@ -110,8 +110,8 @@ section#header h2#subtitle span {
   display: block;
   left: 0; top: 0; right: 0; bottom: 0;  
   padding: 10px 30px;
-  color: #fff;
-  background: #f76e9e;
+  color: #333;
+  background: #fff;
   box-shadow: 0 0 4px rgba(0,0,0,.8);
   z-index: 2;
   white-space: nowrap;
@@ -120,7 +120,7 @@ section#header h2#subtitle span {
 section#header h2#subtitle:after {
   width: 50px; height: 100%;
   box-shadow: 0 0 4px rgba(0,0,0,.5);
-  background: #f76e9e;
+  background: #fff;
   left: -35px; top: 5px;
   z-index: 1;
   transform: rotate(-6deg);
@@ -130,7 +130,7 @@ section#header h2#subtitle:before {
   content: '';
   width: 50px; height: 100%;
   box-shadow: 0 0 4px rgba(0,0,0,.5);
-  background: #f76e9e;
+  background: #fff;
   right: -35px; top: 5px;
   z-index: 1;
   transform: rotate(6deg);
@@ -169,7 +169,6 @@ section.white a:hover {
 }
 
 section.section-a {
-  color: #fff;
   background: #79c7d4;
 }
 
