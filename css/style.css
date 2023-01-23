@@ -540,6 +540,37 @@ h2.delighter.started:after {
   background-size: cover
 }
 
+.instagram a:hover {
+  text-decoration: underline
+}
+.instagram {
+  display: inline-block;
+  position: relative
+}
+
+.instagram a {
+  font-family: arial;
+  display: block;
+  text-decoration: none;
+  padding-left: 25px;
+  color: inherit
+}
+
+.instagram a:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background: url(../img/instagram.png) no-repeat center center;
+  background-size: cover
+}
+
 .facebook a:hover {
   text-decoration: underline
 }
