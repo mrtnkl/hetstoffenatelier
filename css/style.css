@@ -68,9 +68,6 @@ section#header.bg2 {
 section#header.bg5 {
   background-image: url(../img/background5.jpg);
 }
-section#header.bg6 {
-  background-image: url(../img_hires/background6.jpg);
-}
 .een {
   display: block;
   position: relative;
@@ -269,9 +266,6 @@ section#footer {
   min-height: 80vh;
   background: #efeff1 url(../img/background2.jpg) no-repeat right bottom;
   background-size: cover
-}
-section#footer.bg2 {
-  background-image: url(../img/background1.jpg);
 }
 
 #colofon {
