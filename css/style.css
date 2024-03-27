@@ -31,6 +31,12 @@ article {
 .img {
   margin: 15px 0;
 }
+.img.responsive {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+}
+
 
 .region:before {
   content: 'regio '
@@ -67,6 +73,26 @@ section#header.bg2 {
 }
 section#header.bg5 {
   background-image: url(../img/background5.jpg);
+}
+section#header.bg11 {
+  background-image: url(../img/background11.jpg);
+  background-position: top center;
+}
+section#header.bg12 {
+  background-image: url(../img/background12.jpg);
+  background-position: top center;
+}
+section#header.bg13 {
+  background-image: url(../img/background13.jpg);
+  background-position: top center;
+}
+section#header.bg14 {
+  background-image: url(../img/background14.jpg);
+  background-position: top center;
+}
+section#header.bg15 {
+  background-image: url(../img/background15.jpg);
+  background-position: top center;
 }
 .een {
   display: block;
