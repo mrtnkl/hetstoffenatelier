@@ -71,6 +71,9 @@ section#header {
 section#header.bg2 {
   background-image: url(../img/background2.jpg);
 }
+section#header.bg4 {
+  background-image: url(../img/background11_small.jpg);
+}
 section#header.bg5 {
   background-image: url(../img/background5.jpg);
 }
