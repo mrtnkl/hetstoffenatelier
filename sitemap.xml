@@ -1,15 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.hetstoffenatelier.nl/</loc>
-    <lastmod>2024-03-27</lastmod>
+    <lastmod>2025-09-13</lastmod>
   </url>
   <url>
-    <loc>https://www.hetstoffenatelier.nl/opleidingen</loc>
-    <lastmod>2024-03-27</lastmod>
+    <loc>https://www.hetstoffenatelier.nl/opleidingen/</loc>
+    <lastmod>2025-09-13</lastmod>
   </url>
   <url>
-    <loc>https://www.hetstoffenatelier.nl/patroontekenen</loc>
-    <lastmod>2024-03-27</lastmod>
+    <loc>https://www.hetstoffenatelier.nl/patroontekenen/</loc>
+    <lastmod>2025-09-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.hetstoffenatelier.nl/broekpolder/</loc>
+    <lastmod>2025-09-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.hetstoffenatelier.nl/driehuis/</loc>
+    <lastmod>2025-09-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.hetstoffenatelier.nl/assendelft/</loc>
+    <lastmod>2025-09-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.hetstoffenatelier.nl/castricum/</loc>
+    <lastmod>2025-09-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.hetstoffenatelier.nl/beverwijk/</loc>
+    <lastmod>2025-09-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.hetstoffenatelier.nl/uitgeest/</loc>
+    <lastmod>2025-09-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.hetstoffenatelier.nl/velsen-noord/</loc>
+    <lastmod>2025-09-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.hetstoffenatelier.nl/krommenie/</loc>
+    <lastmod>2025-09-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.hetstoffenatelier.nl/bakkum/</loc>
+    <lastmod>2025-09-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.hetstoffenatelier.nl/heemskerk/</loc>
+    <lastmod>2025-09-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.hetstoffenatelier.nl/wijk-aan-zee/</loc>
+    <lastmod>2025-09-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.hetstoffenatelier.nl/velserbroek/</loc>
+    <lastmod>2025-09-13</lastmod>
   </url>
 </urlset>
