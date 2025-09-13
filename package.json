@@ -1,6 +1,10 @@
 {
   "name": "hetstoffenatelier",
   "scripts": {
-    "dev": "http-server -p 8080 -c-1"
+    "dev": "http-server -p 8080 -c-1",
+    "prettier": "prettier --write \"**/*.{js,css,html}\""
+  },
+  "dependencies": {
+    "prettier": "^3.6.2"
   }
 }

@@ -1,25 +1,25 @@
 @font-face {
-  font-family: 'frente';
-  src: url(../fonts/FrenteH1-Regular.otf) format('opentype')
+  font-family: "frente";
+  src: url(../fonts/FrenteH1-Regular.otf) format("opentype");
 }
 
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 html,
 body {
   margin: 0;
-  padding: 0
+  padding: 0;
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 110%;
   line-height: 140%;
-  cursor: default
+  cursor: default;
 }
 
 article {
@@ -37,9 +37,8 @@ article {
   max-width: 600px;
 }
 
-
 .region:before {
-  content: 'regio '
+  content: "regio ";
 }
 
 div.p {
@@ -56,17 +55,18 @@ h3 {
   display: inline;
   font-family: inherit;
   font-size: inherit;
-  margin: 0; padding: 0;
+  margin: 0;
+  padding: 0;
   font-weight: normal;
 }
 section {
-  position: relative
+  position: relative;
 }
 
 section#header {
   min-height: 80vh;
   background: #efeff1 url(../img/background1.jpg) no-repeat center bottom;
-  background-size: cover
+  background-size: cover;
 }
 section#header.bg2 {
   background-image: url(../img/background2.jpg);
@@ -105,7 +105,7 @@ section#header.bg15 {
   border: solid red 10px;
 }
 .een:after {
-  content: 'een';
+  content: "een";
 }
 section#header h1#logo {
   position: absolute;
@@ -122,7 +122,7 @@ section#header h1#logo {
   width: 100vw;
   height: 50vh;
   background: url(../img/logo_1024.png) no-repeat center center;
-  background-size: contain
+  background-size: contain;
 }
 section#header h2#subtitle {
   position: absolute;
@@ -137,30 +137,37 @@ section#header h2#subtitle {
 section#header h2#subtitle span {
   position: relative;
   display: block;
-  left: 0; top: 0; right: 0; bottom: 0;  
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
   padding: 10px 30px;
   color: #333;
   background: #fff;
-  box-shadow: 0 0 4px rgba(0,0,0,.8);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
   z-index: 2;
   white-space: nowrap;
   text-align: center;
 }
 section#header h2#subtitle:after {
-  width: 50px; height: 100%;
-  box-shadow: 0 0 4px rgba(0,0,0,.5);
+  width: 50px;
+  height: 100%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
   background: #fff;
-  left: -35px; top: 5px;
+  left: -35px;
+  top: 5px;
   z-index: 1;
   transform: rotate(-6deg);
 }
 section#header h2#subtitle:before {
   position: absolute;
-  content: '';
-  width: 50px; height: 100%;
-  box-shadow: 0 0 4px rgba(0,0,0,.5);
+  content: "";
+  width: 50px;
+  height: 100%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
   background: #fff;
-  right: -35px; top: 5px;
+  right: -35px;
+  top: 5px;
   z-index: 1;
   transform: rotate(6deg);
 }
@@ -170,27 +177,27 @@ section#header .separator {
   left: 0;
   bottom: 0;
   right: 0;
-  height: 50px
+  height: 50px;
 }
 
 section .content {
   max-width: 700px;
   padding: 40px;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 section .content p {
-  color: #333
+  color: #333;
 }
 
 section.white {
-  color: #333
+  color: #333;
 }
 
 section.white a {
   color: inherit;
   text-decoration: none;
-  border-bottom: solid #f76e9e 3px
+  border-bottom: solid #f76e9e 3px;
 }
 
 section.white a:hover {
@@ -210,15 +217,15 @@ section.section-a h2:after {
 }
 
 section.section-a p {
-  color: #000
+  color: #000;
 }
 
 section.section-a a {
-  color: #fff
+  color: #fff;
 }
 
 section.section-a .separator.bottom svg use {
-  stroke: #2c7b88
+  stroke: #2c7b88;
 }
 
 /*section.section-a:after {
@@ -235,7 +242,7 @@ section.section-a .separator.bottom svg use {
 */
 section.section-a .inner {
   position: relative;
-  z-index: 1
+  z-index: 1;
 }
 
 section.section-b {
@@ -244,29 +251,29 @@ section.section-b {
 }
 
 section.section-b h2 {
-  color: #fff
+  color: #fff;
 }
 
 section.section-b h2:after {
-  background: #f4f7b4
+  background: #f4f7b4;
 }
 
 section.section-b p {
-  color: #fff
+  color: #fff;
 }
 
 section.section-b a {
   color: inherit;
   text-decoration: none;
-  border-bottom: solid #f4f7b4 3px
+  border-bottom: solid #f4f7b4 3px;
 }
 
 section.section-b a:hover {
-  color: #f4f7b4
+  color: #f4f7b4;
 }
 
 section.section-b .separator.bottom svg use {
-  stroke: #e0e82a
+  stroke: #e0e82a;
 }
 
 /*section.section-b:after {
@@ -283,18 +290,18 @@ section.section-b .separator.bottom svg use {
 */
 section.section-b .inner {
   position: relative;
-  z-index: 1
+  z-index: 1;
 }
 
 section a {
-  color: blue
+  color: blue;
 }
 
 section#footer {
   text-align: right;
   min-height: 80vh;
   background: #efeff1 url(../img/background2.jpg) no-repeat right bottom;
-  background-size: cover
+  background-size: cover;
 }
 
 #colofon {
@@ -302,11 +309,11 @@ section#footer {
   color: #ccc;
   font-size: 11px;
   padding: 0 20px;
-  text-align: center
+  text-align: center;
 }
 
 #colofon a {
-  color: inherit
+  color: inherit;
 }
 
 .icon {
@@ -315,52 +322,52 @@ section#footer {
   margin: 0 auto 40px auto;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain
+  background-size: contain;
 }
 
 .icon.icon-sew {
-  background-image: url(../img/icon-sew2.png)
+  background-image: url(../img/icon-sew2.png);
 }
 
 .icon.icon-sew-broken {
-  background-image: url(../img/icon-sew-broken.png)
+  background-image: url(../img/icon-sew-broken.png);
 }
 
 .icon.icon-scissors {
-  background-image: url(../img/icon-scissors2.png)
+  background-image: url(../img/icon-scissors2.png);
 }
 
 .icon.icon-rolmaat {
   background-image: url(../img/icon-rolmaat.png);
-  width: 250px
+  width: 250px;
 }
 
 .icon.icon-buttons {
-  background-image: url(../img/icon-buttons.png)
+  background-image: url(../img/icon-buttons.png);
 }
 
 .icon.icon-friemeltje {
   background-image: url(../img/icon-friemeltje.png);
-  margin: 40px auto 0 auto
+  margin: 40px auto 0 auto;
 }
 
 .icon.icon-friemeltje-yellow {
   background-image: url(../img/icon-friemeltje-yellow.png);
-  margin: 40px auto 0 auto
+  margin: 40px auto 0 auto;
 }
 
 h2 {
   position: relative;
   font-size: 2em;
   line-height: 1.2em;
-  font-family: 'frente';
+  font-family: "frente";
   display: inline-block;
   padding-bottom: 8px;
-  margin: 0
+  margin: 0;
 }
 
 h2:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 4px;
@@ -370,18 +377,18 @@ h2:after {
   -webkit-transform: rotate(-2deg);
   -moz-transform: rotate(-2deg);
   -ms-transform: rotate(-2deg);
-  -o-transform: rotate(-2deg)
+  -o-transform: rotate(-2deg);
 }
 
-@media only screen and (max-width:450px) {
+@media only screen and (max-width: 450px) {
   html section#header h2#subtitle span {
     font-size: 25px;
     padding: 5px 5px;
   }
 }
-@media only screen and (max-width:400px) {
+@media only screen and (max-width: 400px) {
   html .services {
-    font-size: 1.5em
+    font-size: 1.5em;
   }
   html section#header h2#subtitle span {
     font-size: 25px;
@@ -392,20 +399,20 @@ h2:after {
 .services {
   text-align: center;
   margin: 20px 0 40px 0;
-  padding-bottom: 8px
+  padding-bottom: 8px;
 }
 
 .services .service {
-  font-family: 'frente';
+  font-family: "frente";
   font-size: 2em;
   line-height: 1.5em;
   position: relative;
-  color: #333
+  color: #333;
 }
 .services .txt {
-  font-family: 'frente';
+  font-family: "frente";
   font-size: 2em;
-  line-height: 1.5em;  
+  line-height: 1.5em;
 }
 .service a {
   text-decoration: none;
@@ -413,7 +420,7 @@ h2:after {
 }
 
 .services .service:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 10px;
@@ -423,7 +430,7 @@ h2:after {
   -webkit-transform: rotate(-2deg);
   -moz-transform: rotate(-2deg);
   -ms-transform: rotate(-2deg);
-  -o-transform: rotate(-2deg)
+  -o-transform: rotate(-2deg);
 }
 .services .service.s3:after {
   background: #f76e9e;
@@ -432,7 +439,7 @@ h2:after {
 .separator {
   position: relative;
   width: 100%;
-  height: 50px
+  height: 50px;
 }
 
 .separator svg {
@@ -440,7 +447,7 @@ h2:after {
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%
+  height: 100%;
 }
 
 .separator.bottom {
@@ -448,28 +455,29 @@ h2:after {
   left: 0;
   bottom: 0;
   right: 0;
-  height: 50px
+  height: 50px;
 }
 
 #whatsapp {
   position: absolute;
   top: 40px;
   left: 10px;
-/*  -webkit-transform: translateX(-50%);
+  /*  -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
-*/  z-index: 2
+*/
+  z-index: 2;
 }
 
 #whatsapp a {
   font-size: 12px;
-  color: #333
+  color: #333;
 }
 
 .whatsapp {
   display: inline-block;
-  position: relative
+  position: relative;
 }
 
 .whatsapp a {
@@ -477,11 +485,11 @@ h2:after {
   display: block;
   text-decoration: none;
   padding-left: 25px;
-  color: inherit
+  color: inherit;
 }
 
 .whatsapp a:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 50%;
@@ -492,52 +500,52 @@ h2:after {
   width: 20px;
   height: 20px;
   background: url(../img/whatsapp.png) no-repeat center center;
-  background-size: cover
+  background-size: cover;
 }
 
 .whatsapp a:hover {
-  text-decoration: underline
+  text-decoration: underline;
 }
 
 .address a {
-  color: inherit
+  color: inherit;
 }
 
 .address a:hover {
-  color: #79c7d4
+  color: #79c7d4;
 }
 
 q {
   font-style: italic;
-  color: #2c7b88
+  color: #2c7b88;
 }
 
 .icon.delighter.started {
-  -webkit-animation: bounce .7s ease-out;
-  -moz-animation: bounce .7s ease-out;
-  -ms-animation: bounce .7s ease-out
+  -webkit-animation: bounce 0.7s ease-out;
+  -moz-animation: bounce 0.7s ease-out;
+  -ms-animation: bounce 0.7s ease-out;
 }
 
 h2.delighter:after {
   width: 0;
-  -webkit-transition: all .7s ease-out .3s;
-  -moz-transition: all .7s ease-out .3s;
-  -ms-transition: all .7s ease-out .3s;
-  -o-transition: all .7s ease-out .3s
+  -webkit-transition: all 0.7s ease-out 0.3s;
+  -moz-transition: all 0.7s ease-out 0.3s;
+  -ms-transition: all 0.7s ease-out 0.3s;
+  -o-transition: all 0.7s ease-out 0.3s;
 }
 
 h2.delighter.started:after {
-  width: 100%
+  width: 100%;
 }
 
 #facebook a {
   font-size: 12px;
-  color: #333
+  color: #333;
 }
 
 .facebook {
   display: inline-block;
-  position: relative
+  position: relative;
 }
 
 .facebook a {
@@ -545,11 +553,11 @@ h2.delighter.started:after {
   display: block;
   text-decoration: none;
   padding-left: 25px;
-  color: inherit
+  color: inherit;
 }
 
 .facebook a:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 50%;
@@ -560,15 +568,15 @@ h2.delighter.started:after {
   width: 20px;
   height: 20px;
   background: url(../img/facebook.png) no-repeat center center;
-  background-size: cover
+  background-size: cover;
 }
 
 .instagram a:hover {
-  text-decoration: underline
+  text-decoration: underline;
 }
 .instagram {
   display: inline-block;
-  position: relative
+  position: relative;
 }
 
 .instagram a {
@@ -576,11 +584,11 @@ h2.delighter.started:after {
   display: block;
   text-decoration: none;
   padding-left: 25px;
-  color: inherit
+  color: inherit;
 }
 
 .instagram a:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 50%;
@@ -591,63 +599,65 @@ h2.delighter.started:after {
   width: 20px;
   height: 20px;
   background: url(../img/instagram.png) no-repeat center center;
-  background-size: cover
+  background-size: cover;
 }
 
 .facebook a:hover {
-  text-decoration: underline
+  text-decoration: underline;
 }
-
 
 @keyframes bounce {
   0% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     -ms-transform: scale(1);
-    -o-transform: scale(1)
+    -o-transform: scale(1);
   }
 
   25% {
     -webkit-transform: scale(1.05);
     -moz-transform: scale(1.05);
     -ms-transform: scale(1.05);
-    -o-transform: scale(1.05)
+    -o-transform: scale(1.05);
   }
 
   50% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     -ms-transform: scale(1);
-    -o-transform: scale(1)
+    -o-transform: scale(1);
   }
 
   75% {
     -webkit-transform: scale(1.05);
     -moz-transform: scale(1.05);
     -ms-transform: scale(1.05);
-    -o-transform: scale(1.05)
+    -o-transform: scale(1.05);
   }
 
   100% {
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     -ms-transform: scale(1);
-    -o-transform: scale(1)
+    -o-transform: scale(1);
   }
 }
 
 #menu {
   position: fixed;
-  top: 0; left: 0; right: 0;
+  top: 0;
+  left: 0;
+  right: 0;
   z-index: 9;
   background: #555;
-  color: rgba(255,255, 255,.9);
+  color: rgba(255, 255, 255, 0.9);
   padding: 5px 8px 7px 8px;
-  font-size: 25px; letter-spacing: 1.5px;
+  font-size: 25px;
+  letter-spacing: 1.5px;
   font-weight: bold;
   /*font-family: 'Open Sans'; font-weight: 600;*/
   /*font-family: 'Bahnschrift', sans-serif;*/
-  font-family: 'frente';
+  font-family: "frente";
   /*transition: all .6s ease-out;
   opacity: .5;
   transform: translatey(-100%);*/
@@ -663,17 +673,20 @@ h2.delighter.started:after {
 #menu-logo {
   position: absolute;
   display: block;
-  width: 24px; height: 24px;
+  width: 24px;
+  height: 24px;
   background: url(../img/logo_circle.png) no-repeat center center;
   background-size: contain;
 }
 #menu ol {
-  margin: 0; padding: 0;
+  margin: 0;
+  padding: 0;
   display: inline-block;
 }
 #menu li {
   display: inline-block;
-  padding: 0; margin: 0;
+  padding: 0;
+  margin: 0;
 }
 #menu li a {
   color: inherit;
@@ -688,14 +701,14 @@ h2.delighter.started:after {
   margin-left: 10px;
 }
 #menu-opleiding:before {
-  content: 'Danckaerts ';
+  content: "Danckaerts ";
 }
-@media only screen and (max-width:740px) {
+@media only screen and (max-width: 740px) {
   html #menu {
     font-size: 15px;
   }
 }
-@media only screen and (max-width:550px) {
+@media only screen and (max-width: 550px) {
   html #company {
     display: none;
   }
@@ -703,9 +716,9 @@ h2.delighter.started:after {
     margin-left: 32px;
   }
 }
-@media only screen and (max-width:400px) {
+@media only screen and (max-width: 400px) {
   html #menu-opleiding:before {
-    content: '';
+    content: "";
   }
   html #menu-opleiding .first {
     text-transform: uppercase;
@@ -717,4 +730,27 @@ h2.delighter.started:after {
 [data-anchor] {
   padding-top: 50px;
   margin-top: -50px;
+}
+
+@media (max-width: 600px) {
+  .logos img {
+    height: 80px !important;
+  }
+  .logos {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+}
+.logos {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+.logos a {
+  text-decoration: none;
+  border-bottom: none !important;
+}
+.logos img {
+  height: 120px;
+  max-width: 100%;
 }
