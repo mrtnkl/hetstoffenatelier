@@ -754,3 +754,20 @@ h2.delighter.started:after {
   height: 120px;
   max-width: 100%;
 }
+section .content p.notice {
+  display: inline-block;
+  margin: 0;
+  max-width: 300px;
+  background: #f76e9e;
+  color: #fff;
+  padding: 10px;
+  border: dashed #fff 2px;
+  transform: rotate(-2deg);
+  font-size: 13px;
+  line-height: 1.3em;  
+}
+section .content p.notice em {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 15px;
+}
